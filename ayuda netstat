@@ -1,0 +1,24 @@
+-r, --route              muestra la tabla de ruteado
+-i, --interfaces         muestra la tabla de interfaz
+-g, --groups             muestra la pertenencia a grupos multicast
+-s, --statistics         muestra las estadísticas de la red (como SNMP)
+-M, --masquerade         muestra las conexiones enmascaradas
+
+-v, --verbose descripción amplia
+-W, --wide               don't truncate IP addresses
+-n, --numeric no se resolverán nombres
+--numeric-hosts          no resuelve nombres de anfitrión
+--numeric-ports          no resuelve por nombres de puerto
+--numeric-users          no resuelve por nombres de usuario
+-N, --symbolic           resuelve nombres hardware
+-e, --extend             muestra otra/más información
+-p, --programs           muestra el nombre PID/Programa para los zócalos
+-o, --timers             muestra temporizadores
+-c, --continuous         listado continuo
+
+-l, --listening         muestra los zócalos a la escucha de servidores
+-a, --all                display all sockets (default: connected)
+-F, --fib                muestra la base de información hacia adelante (predeterminado)
+-C, --cache              display routing cache instead of FIB
+-Z, --context            display SELinux security context for sockets
+

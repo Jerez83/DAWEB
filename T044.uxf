@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>270</w>
+      <h>600</h>
+    </coordinates>
+    <panel_attributes>Alumno
+--
+_-MINNUMEXP: int = 1_
+_-contador: int_
+-numExp: int
+-alias: String
+
+&lt;&lt;nombre completo&gt;&gt;
+-nombre:String
+-ape1: String
+-ape2: String
+
+-anioNac: int      {&gt;=1900}
+--
+&lt;&lt;constructores&gt;&gt;
++Alumno()
++Aluno(alias:String)
++Aluno(alias:String,anioNac:int)
+
+&lt;&lt;accesores&gt;&gt;
++getAlias():String 
++getNombre():String 
++getApe1():String 
++getApe2():String 
++getAnioNac():int 
+
+&lt;&lt;mutadores&gt;&gt;
++setAlias(alias:String) 
++setNombre(nombre:String) 
++setApe1(ape1:String) 
++setApe2(ape2:String) 
++setAnioNac(anioNac:int
+
+&lt;&lt;otros&gt;&gt;
++contarPares(desde:int,hasta:int) 
++edad():int 
++nombreCompleto():String 
++toString():String </panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
